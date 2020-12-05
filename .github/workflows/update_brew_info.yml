@@ -8,4 +8,9 @@ on:
     # UTC の 02:00 は JST だと 11:00 。
     - cron: '* * * * *'
 
-run: echo Hello, world!
+jobs:
+  build:
+    name: test
+    steps:
+      - name: hello world
+        run: echo Hello, world!
