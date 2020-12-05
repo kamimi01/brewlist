@@ -12,3 +12,4 @@ jobs:
       - run: |
           IMA=`find ./ -name createBrewList.sh`
           echo ${IMA}
+          .//scripts/createBrewList.sh
