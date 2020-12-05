@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          IMA=`ls -la`
+          IMA=`find ./ -name createBrewList.sh`
           echo ${IMA}
