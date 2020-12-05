@@ -1,0 +1,5 @@
+name: Update Brew Info
+on:
+  schedule:
+    # 
+    - cron: '* * * * *'

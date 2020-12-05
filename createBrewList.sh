@@ -10,3 +10,10 @@ do
   VERAION2=${3}
   echo "| ${SOFTWARENAME} | ${VERSION1} |" >> README.md
 done
+
+# githubにコミット&プッシュ
+BREWLISTDIR="/Users/mikaurakawa/Desktop/Shell_Projects/brewlist"
+cd $BREWLISTDIR
+git add .
+git commit -m "update brew info"
+git push origin main
