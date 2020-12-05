@@ -12,3 +12,4 @@ jobs:
       - run: |
           IMA=`pwd`
           echo ${IMA}
+          ./scripts/createBrewList.sh
