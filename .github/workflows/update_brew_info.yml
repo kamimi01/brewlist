@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-        chmod +x ./scripts/createBrewList.sh
-        ./scripts/createBrewList.sh
+          chmod +x ./scripts/createBrewList.sh
+          ./scripts/createBrewList.sh
