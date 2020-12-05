@@ -2,15 +2,11 @@
 
 name: Update Brew Info
 
-on:
-  schedule:
-    # 月曜日の 11:00 (JST) に処理を実行する。
-    # UTC の 02:00 は JST だと 11:00 。
-    - cron: '* * * * *'
+on: push
 
 jobs:
   build:
-    name: test
+    name: Greeting
+    runs-on: ubuntu-latest
     steps:
-      - name: hello world
-        run: echo Hello, world!
+      - run: echo "Hello, World!"
