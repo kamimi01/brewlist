@@ -11,9 +11,11 @@ do
   echo "| ${SOFTWARENAME} | ${VERSION1} |" >> README.md
 done
 
-# githubにコミット&プッシュ
 BREWLISTDIR="/Users/mikaurakawa/Desktop/Shell_Projects/brewlist"
+COMMITMESSAGE="update brew info"
+
+# Githubにコミット&プッシュ
 cd $BREWLISTDIR
 git add .
-git commit -m "update brew info"
+git commit -m $COMMITMESSAGE
 git push origin main
