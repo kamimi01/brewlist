@@ -6,7 +6,7 @@ on: push
 
 jobs:
   build:
-    name: Greeting
+    name: Execute Shell
     runs-on: ubuntu-latest
     steps:
-      - run: ../createBrewList.sh
+      - run: ./createBrewList.sh
