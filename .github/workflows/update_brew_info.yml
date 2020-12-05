@@ -9,4 +9,4 @@ jobs:
     name: Execute Shell
     runs-on: macos-10.15
     steps:
-      - run: find . -name createBrewList.sh
+      - run: ./scripts/createBrewList.sh
