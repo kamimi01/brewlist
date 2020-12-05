@@ -7,6 +7,4 @@ on: push
 jobs:
   build:
     name: Execute Shell
-    runs-on: ubuntu-latest
-    steps:
-      - run: find . -name createBrewList.sh
+    run: ./scripts/createBrewList.sh
