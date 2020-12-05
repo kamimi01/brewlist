@@ -9,5 +9,4 @@ jobs:
     name: Execute Shell
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          /scripts/createBrewList.sh
+      - run: find . -name createBrewList.sh

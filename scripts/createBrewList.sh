@@ -11,7 +11,7 @@ do
   echo "| ${SOFTWARENAME} | ${VERSION1} |" >> README.md
 done
 
-BREWLISTDIR="/Users/mikaurakawa/Desktop/Shell_Projects/brewlist"
+BREWLISTDIR="/Users/mikaurakawa/Desktop/Shell_Projects/brewlist/scripts"
 COMMITMESSAGE="update brew info"
 
 # Githubにコミット&プッシュ
