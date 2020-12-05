@@ -10,8 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          IMA=`pwd`
+          IMA=`ls -la`
           echo ${IMA}
-          cd scripts
-          IMAIMA=`pwd`
-          echo ${IMAIMA}
