@@ -7,4 +7,5 @@ on: push
 jobs:
   build:
     name: Execute Shell
-    run: ./scripts/createBrewList.sh
+    steps:
+      - run: find . -name createBrewList.sh
