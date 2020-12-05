@@ -13,4 +13,5 @@ jobs:
           IMA=`pwd`
           echo ${IMA}
           cd scripts
-          ./createBrewList.sh
+          IMAIMA=`pwd`
+          echo ${IMAIMA}
