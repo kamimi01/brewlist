@@ -17,5 +17,5 @@ COMMITMESSAGE="update brew info"
 # Githubにコミット&プッシュ
 cd $BREWLISTDIR
 git add .
-git commit -m $COMMITMESSAGE
+git commit -m "update brew info"
 git push origin main
