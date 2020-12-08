@@ -23,6 +23,9 @@ do
   echo "| ${SOFTWARENAME} | ${VERSION1} |" >> README.md
 done
 
+# よくわからんファイルを削除
+rm README.md-e
+
 # Githubにコミット&プッシュ
 git add .
 git commit -m "update brew info"
