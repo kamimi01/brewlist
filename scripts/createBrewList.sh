@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # README.mdのディレクトリまで移動
 READMEDIR="/Users/mikaurakawa/Desktop/Shell_Projects/brewlist"
